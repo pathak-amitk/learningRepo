@@ -34,3 +34,18 @@ df = pd.DataFrame(data, columns=['student_id', 'age'])
 #Modify Columns
 df.age = df.age*2
 print(df)
+
+#Fill Missing Data
+#products['quantity']=products['quantity'].fillna(0)
+
+#Reshape Data: Concatenate
+#print(pd.concat([df1, df2]))
+
+#Reshape Data: Pivot
+#return weather.pivot(index="month", columns="city", values="temperature")
+
+#Reshare Data: Melt
+#return report.melt(id_vars=["product"], value_vars=["quarter_1","quarter_2","quarter_3","quarter_4"], var_name="quarter", value_name="sales")
+
+#Method Chaining
+# print(animals[animals["weight"]>100].sort_values(by=["weight"], ascending=False)[["name"]])
